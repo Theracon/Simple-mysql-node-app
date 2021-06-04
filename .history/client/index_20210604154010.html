@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>MySQL Node App</title>
+</head>
+
+<body>
+    <main>
+        <label>Name:</label>
+        <input type="text" id="name-input" name="name">
+        <button id="add-name-btn">Add Name</button>
+
+        <br><br><br>
+
+        <div>
+            <input type="text" placeholder="Search by name" id="search-input">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <table id="table" class="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
